@@ -210,7 +210,17 @@
     <div class="search-container">
       <label for="search-input">Search Products:</label>
       <input type="text" id="search-input" class="search-input" placeholder="Search products...">
-      <button class="search-button">Search</button>
+      <style>
+        .search-button {
+          color: #fff; /* Change the text color to white or any other color with better contrast */
+          background-color: #007bff; /* Adjust the background color as needed */
+          /* Add any other styling properties as necessary */
+        }
+      
+        .search-button:hover {
+          background-color: #0056b3; /* Change the background color on hover if needed */
+        }
+      </style>
     </div>
     <div class="product-container" id="product-list">
       <!-- Product items will be dynamically added here -->
